@@ -1,0 +1,19 @@
+Games:
+  Wilderness:
+    spawnLocation: world,128.5,64,-139.5,0,0
+    maxPlayers: 10
+    ownWeapons: false
+    commands:
+    - 'spawn {player}'
+    - 'say {player} has won the LMS!'
+    - 'give {player} diamond 10'
+    - 'eco give {player} 100'
+  Pyramid:
+    spawnLocation: world,100,60,100,0,0
+    maxPlayers: 5
+    ownWeapons: true
+    commands:
+    - 'spawn {player}'
+    - 'say {player} has won the LMS!'
+    - 'give {player} diamond 10'
+    - 'eco give {player} 100'

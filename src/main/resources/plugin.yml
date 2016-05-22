@@ -1,0 +1,7 @@
+name: LastManStanding
+version: 1.0
+description: A free for all plugin in which the last player wins it all!
+main: org.itsmonkey.lms.LMS
+commands:
+  lms:
+    description: The base command for the LMS plugin
