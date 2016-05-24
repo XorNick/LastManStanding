@@ -22,7 +22,6 @@ public class Game {
     private boolean running;
     private boolean joinable;
     private int maxPlayers;
-    private String name;
     private String id;
     private int countdown;
     private boolean ownWeapons;

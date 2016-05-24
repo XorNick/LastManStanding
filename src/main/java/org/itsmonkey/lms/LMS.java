@@ -18,6 +18,10 @@ public class LMS extends JavaPlugin {
     private PlayerManager playerManager;
     private GameManager gameManager;
 
+    /**
+     * Episode 7: Fix up code, list command, info command
+     */
+
     @Override
     public void onEnable() {
         instance = this;
