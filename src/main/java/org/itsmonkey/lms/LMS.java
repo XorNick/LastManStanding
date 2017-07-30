@@ -1,6 +1,5 @@
 package org.itsmonkey.lms;
 
-import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.itsmonkey.lms.commands.CommandHandler;
@@ -27,7 +26,7 @@ public class LMS extends JavaPlugin {
         this.gameManager = new GameManager();
         this.gameManager.loadGames();
 
-        PluginManager pm = Bukkit.getPluginManager();
+        PluginManager pm = getServer().getPluginManager();
         pm.registerEvents(new PlayerListener(), this);
         pm.registerEvents(new GameListener(), this);
 
